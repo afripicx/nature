@@ -1,0 +1,302 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f0f8ff, #ffffff); /* Elegant gradient background */
+    color: #333333; /* Dark Gray */
+    line-height: 1.6; /* Improves readability */
+}
+
+header .carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+.carousel-caption {
+    color: #fff;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7); /* Improve text readability */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+header h1, header p {
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5); /* Enhance text visibility */
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #ffd700; /* Gold on hover */
+}
+
+/* Section Styles */
+section {
+    padding: 60px 20px;
+    background-color: #ffffff; /* Default white background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for sections */
+}
+
+section h2 {
+    color: #0E300E; /* Dark Green */
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add depth for images */
+    margin-bottom: 15px;
+}
+
+/* About Section */
+/* About Section */
+#about {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+#about img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Get Involved Section */
+#get-involved {
+    padding: 3rem 0;
+    background-color: #ffffff;
+}
+
+#get-involved .content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+}
+
+#get-involved img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+#get-involved .text {
+    flex: 1;
+    text-align: justify;
+    font-size: 1rem;
+    color: #555;
+}
+
+#get-involved ul {
+    list-style: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+/* Get Involved Section Button */
+#get-involved .btn {
+    background-color: #28a745;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+#get-involved .btn:hover {
+    background-color: #218838;
+    color: #fff;
+}
+
+/* Webinar Section */
+#webinar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    background: #f8f9fa; /* Light gray background */
+    border: 1px solid #e0e0e0;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+}
+
+#webinar img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+#webinar .text {
+    flex: 1;
+    text-align: justify;
+}
+
+#webinar h3 {
+    color: #0E300E; /* Dark Green */
+    margin-bottom: 1rem;
+}
+
+#webinar p {
+    font-size: 1rem;
+    color: #555;
+}
+
+#webinar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#webinar ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 60px 20px;
+    background-color: #f8f9fa; /* Light gray background for the section */
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #155724;
+}
+
+#contact .bg-white {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+#contact ul li {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+#contact ul li a {
+    text-decoration: none;
+    color: #155724;
+}
+
+#contact ul li a:hover {
+    text-decoration: underline;
+}
+
+#contact .form-label {
+    font-weight: bold;
+    color: #555;
+}
+
+#contact .btn {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+}
+
+#contact .btn:hover {
+    background-color: #218838;
+}
+
+/* Social Media Section */
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0E300E;
+    font-size: 1.5rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-media a:hover {
+    color: #ffd700;
+}
+
+/* Footer */
+footer {
+    background-color: #333333;
+    color: #e6e6fa;
+    font-size: 0.9rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    color: #e6e6fa;
+    font-size: 1.2rem;
+}
+
+/* Buttons */
+button {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section {
+        padding: 30px 10px;
+    }
+
+    header .carousel-inner img {
+        height: 300px;
+    }
+    .carousel-caption h1 {
+        font-size: 1.5rem; /* Smaller font for mobile screens */
+    }
+
+    .carousel-caption p {
+        font-size: 1rem; /* Smaller font for mobile screens */
+    }
+
+
+    #about .row,
+    #get-involved .content,
+    #webinar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about img, #about .text,
+    #get-involved img, #get-involved .text,
+    #webinar img, #webinar .text {
+        max-width: 100%;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
